@@ -3,52 +3,46 @@
         <style>
         body{
             background-image:url("balaram1.jpg");
-            background-size:cover;
+            background-size:600px;
             background-repeat:no-repeat;
             background-attachment:fixed;
             margin:0;
         }
-        div{
-            background-color:rgba(226,226,226,0.5);
-            position: relative;
-            top:0px;
-            border-radius:20px;
+        
+        .arjun{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
         }
         .naveen{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       border-radius:10px;
+       background-color:rgba(226,226,226,0.7);
+        }
+        .arjun div img{
+           height:350px;
+           width:220px;
+        }
+        .naveen h1{
+            color: #d4af37;
+            font-family: Georgia;
+            margin:0px;
+            font-size:50px;
+            text-shadow: 2px 2px 5px black;
+        }
         
-            font-family: Georgia;
-            color: #d4af37;
-    text-shadow: 2px 2px 5px black;
-            font-size:50px;
-            position: relative;
-            margin:0px;
-            left:50px;
-        }
-         .lavanya{
-            font-family: Georgia;
-            color: #d4af37;
-    text-shadow: 2px 2px 5px black;
-            font-size:50px;
-            position: relative;
-            margin:0px;
-            
-            left:10px;
-        }
-        img{
-            height:250px;
-            width:150px;
-            position:relative;
-            top:0px;
-            
-        }
       
         </style>
     </head>
-    <body>
-        <img src="lion.png" alt="hii">
-        <div>
-        <p class="naveen">ALWAYS</p>
-        <p class="lavanya">AVAILABLE</p></div>
+    <body><div class="arjun">
+        <div><img src="lion.png" alt="hii"></div>
+        <div class="naveen">
+        <div><h1>ALWAYS</h1></div>
+        <div><h1>AVAILABLE</h1></div></div></div>
         
     </body>
 </html>
